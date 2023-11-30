@@ -1,0 +1,954 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "pages/componentsC/test/index", //启动页面，必选
+	// 		"query": "uuid=c4bba940-f69e-11ea-a419-6bafda9d095e&__id__=1" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// },
+	"pages": [
+		{
+		    "path" : "pages/start/start",
+		    "style" :                                                                                    
+		    {
+				"app-plus":{
+					"titleNView":false
+				}
+		    }
+		    
+		},
+		
+	    {
+            "path" : "pages/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧城市",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/service",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部服务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/center",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "中国智造",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/newdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/perinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/buylist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/changepw",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/setmail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "信息反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/singin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/start/setIp",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "IP端口设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/service/house/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找房子",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/house/det",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房源详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/changdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hotline/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "政府服务热线",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hotline/sulist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "诉求列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hotline/det",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "诉求详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/hotline/newhot",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新建诉求",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/youthStation/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "青年驿站",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/youthStation/youthdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "驿站详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/youthStation/workdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "人才区域",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/youthStation/policydet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "政策详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/chandet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/andet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/acdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/center/changlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "厂商列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/chanlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "产品列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/ruzhu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "入驻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/zhaopin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "招聘",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/changdett",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/changdeth",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/education/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "律师",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/library/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "数字图书馆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/library/libdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图书馆详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/park/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停哪儿",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/park/parkDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/park/ParkList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus_query/custom_shuttle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧巴士",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus_query/one",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "步骤",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus_query/two",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "步骤",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus_query/three",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "步骤",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/bus_query/four",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "步骤",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/movie/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "看电影",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/movie/movedet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电影详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/movie/movelist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电影列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/voluntee/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "志愿活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/voluntee/myvol",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/voluntee/voluent",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "志愿活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/voluntee/voluentdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/voluntee/newdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/analyse/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "数据分析",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/activity/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/activity/activdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/activity/activrevicew",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/service/welfare/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "捐赠",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/welfare/gonglist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/traffic/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧交管",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/traffic/tralist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "违章列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/traffic/tradet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "违章详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/living_expenses/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "生活缴费",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/living_expenses/money",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "缴费",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/living_expenses/setmoney",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "缴费",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/logistic/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/logistic/companydet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/petHospital/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宠物医院",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/petHospital/anli",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "案例",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/petHospital/setdoctor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医生列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/petHospital/wenzhen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问诊",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/service/job/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "找工作",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/job/JobDet",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "职位详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/job/Resume",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "简历管理",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/outpatient/hospitalList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "门诊预约",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#6e78f7"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/outpatient/hospitalDet",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "医院详情",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#6e78f7"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/outpatient/personList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "就诊人",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#6e78f7"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/outpatient/addperson",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "增加就诊人",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#6e78f7"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/outpatient/appointment",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "预约挂号",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#6e78f7"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/outpatient/ordermail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "确认预约单",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#6e78f7"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/outpatient/appointList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "预约列表",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#6e78f7"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/classification/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "垃圾分类",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/classification/newsdet",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新闻详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/classification/sou",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "搜索",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/classification/fen",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "分类",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/classification/soudet",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "搜索结果",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/service/classification/fendet",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/service/education/goodat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "法律专长",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/education/lawlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "律师列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/education/lawyerdet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "律师详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/education/ask",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "免费咨询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/education/zixunlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "咨询列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/education/zidet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "咨询详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/education/pingjia",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评价",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/metro_query/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "城市地铁",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/metro_query/zonglan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "总览图",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/metro_query/xiangqing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/takeout/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "外卖",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {	
+		"selectedColor": "#007aff",
+		"list":[
+			{
+				"iconPath":"static/icons/home.png",
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"static/icons/home_act.png",
+				"text":"首页"
+			},
+			{
+				"iconPath":"static/icons/all.png",
+				"pagePath":"pages/service/service",
+				"selectedIconPath":"static/icons/all_act.png",
+				"text":"服务"
+			},
+			{
+				"iconPath":"static/icons/oldbef.png",
+				"pagePath":"pages/center/center",
+				"selectedIconPath":"static/icons/oldafter.png",
+				"text":"中国智造"
+			},
+			{
+				"iconPath":"static/icons/news.png",
+				"pagePath":"pages/news/news",
+				"selectedIconPath":"static/icons/news_act.png",
+				"text":"新闻"
+			},
+			{
+				"iconPath":"static/icons/user.png",
+				"pagePath":"pages/mine/mine",
+				"selectedIconPath":"static/icons/user_act.png",
+				"text":"个人"
+			}
+			
+		]
+		
+		
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "智慧城市",
+		"navigationBarBackgroundColor": "#007aff",
+		"backgroundColor": "#007aff"
+	}
+}
